@@ -21,8 +21,8 @@ namespace Ball
             InitializeComponent();
             this.Location = new Point(X, Y);
             Random rannd = new Random();
-            this.dx = dx;
             this.dy = dy;
+            this.dx = dx;
             while (dy == 0)
             {
                 this.dy = rannd.Next(-50, 50);
