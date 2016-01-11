@@ -11,8 +11,11 @@ using System.Windows.Forms;
 
 namespace Ball
 {
+
+    //This is original Ball Masha's Branch
     public partial class BBControl : Control
     {
+
         int dx, dy;
         private Thread thread;
 
@@ -25,7 +28,7 @@ namespace Ball
             this.dx = dx;
             while (dy == 0)
             {
-                this.dy = rannd.Next(-50, 50);
+                this.dy = rannd.Next(-50, 50);//This is test branch
             }
             while (dx == 0)
             {
