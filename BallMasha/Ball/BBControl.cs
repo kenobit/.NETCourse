@@ -29,6 +29,7 @@ namespace Ball
             while (dy == 0)
             {
                 this.dy = rannd.Next(-50, 50);//This is test branch
+                // And one more
             }
             while (dx == 0)
             {
